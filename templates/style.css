@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial;
+    font-family:Arial, sans-serif;
 }
 
 body{
@@ -25,16 +25,20 @@ body{
     border-radius:20px;
 
     background: rgba(255,255,255,0.2);
-
     backdrop-filter: blur(15px);
 
     box-shadow:0 8px 32px rgba(255,105,180,0.3);
+
+    text-align:center;
 }
 
 h1{
-    text-align:center;
     color:white;
     margin-bottom:30px;
+}
+
+h2{
+    color:white;
 }
 
 .input-box{
@@ -49,6 +53,7 @@ input{
     background:transparent;
     outline:none;
     color:white;
+    font-size:16px;
 }
 
 input::placeholder{
